@@ -1,6 +1,6 @@
 import styles from "./styles.module.scss"
 
-import SignInButton from "../SignInButton"
+import { SignInButton } from "../SignInButton"
 
 export const Header = () => {
   return (

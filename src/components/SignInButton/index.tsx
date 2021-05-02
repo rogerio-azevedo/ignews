@@ -2,7 +2,7 @@ import styles from "./styles.module.scss"
 import { FaGithub } from "react-icons/fa"
 import { FiX } from "react-icons/fi"
 
-const SignInButton = () => {
+export const SignInButton = () => {
   const isUserLoggedIn = true
 
   return isUserLoggedIn ? (
@@ -18,5 +18,3 @@ const SignInButton = () => {
     </button>
   )
 }
-
-export default SignInButton
