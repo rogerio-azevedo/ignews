@@ -31,7 +31,7 @@
       }
 
       &:hover {
-        color: var(--withe);
+        color: var(--white);
       }
 
       &.active {
@@ -50,5 +50,9 @@
         background: var(--yellow-500);
       }
     }
+  }
+
+  button {
+    margin-left: auto;
   }
 }
